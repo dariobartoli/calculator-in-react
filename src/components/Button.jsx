@@ -22,7 +22,7 @@ export const Button = ({type, value}) => {
     }
   return (
     <div>
-        <button onClick={handleClick}>{value}</button>
+        <button onClick={handleClick} className="buttonAll">{value}</button>
     </div>
   )
 }

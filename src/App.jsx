@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css'
-import { Calculator } from "./components/calculator";
+import { Calculator } from "./components/Calculator";
+
 
 function App() {
   return (
-    <div>
+    <div className="body">
       <Calculator></Calculator>
     </div>
   )
